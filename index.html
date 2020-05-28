@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <input  id="name">
-       <button id="roll-button"> Roll </button>
+    <label for="number-of-dice">Enter a number of dice: </label>
+    <input type="text" id="name">
+       <button id="roll-button"> Roll! </button>
         <br>
-          <h3>The sum of rolls is: <span id="sum_rolls">0</span> </h3>
+          <h3>TOTAL: <span id="total"></span> </h3>
         <br>
-        <button id="show-all-rolls"> Show All Rolls </button>
+        <div class="clear"></div>
+        <button id="show-all-rolls-button"> Show All Rolls </button>
+          <br> 
+          <ol> <span id='dice'> </span>  
+          </ol> 
+          
+          <br>
+                <button id="reset-button"> Reset </button>
+                <span id="reset_"></span>
+          <br>
+      
         <script src="main.js"></script>
 </body>
 </html>
